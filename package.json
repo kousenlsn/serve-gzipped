@@ -1,0 +1,44 @@
+{
+  "name": "serve-gzipped",
+  "description": "Quick express server with compression for testing purposes",
+  "version": "2.0.0",
+  "author": "kousenlsn",
+  "bin": {
+    "serve-gzipped": "./bin/run"
+  },
+  "bugs": "https://github.com/kousenlsn/serve-gzipped/issues",
+  "dependencies": {
+    "@oclif/command": "^1.8.0",
+    "@oclif/config": "^1.17.0",
+    "@oclif/plugin-help": "^3.2.0",
+    "boxen": "^4.2.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "open": "^7.2.1"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1.22.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://github.com/kousenlsn/serve-gzipped",
+  "keywords": [
+    "oclif",
+    "express",
+    "compression"
+  ],
+  "license": "MIT",
+  "oclif": {
+    "bin": "serve-gzipped"
+  },
+  "repository": "kousenlsn/serve-gzipped",
+  "scripts": {
+    "prepack": "oclif-dev readme",
+    "version": "oclif-dev readme && git add README.md"
+  }
+}
