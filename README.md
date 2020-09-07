@@ -20,6 +20,9 @@ or run from cloud:
 
 ```sh-session
 $ serve-gzipped [PATH]
+
+e.g.:
+$ serve-gzipped ./build -p 3000
 ```
 
 ##### OPTIONS
