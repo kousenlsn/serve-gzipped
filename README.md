@@ -1,32 +1,30 @@
 serve-gzipped
 =============
 
-Quick express server with compression for testing purpose
+*Quick express server with compression for testing purposes.*
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/serve-gzipped.svg)](https://npmjs.org/package/serve-gzipped)
 [![Downloads/week](https://img.shields.io/npm/dw/serve-gzipped.svg)](https://npmjs.org/package/serve-gzipped)
 [![License](https://img.shields.io/npm/l/serve-gzipped.svg)](https://github.com/kousenlsn/serve-gzipped/blob/master/package.json)
 
-<!-- toc -->
-* [Usage](#usage)
-* [Commands](#commands)
-<!-- tocstop -->
-# Usage
-<!-- usage -->
-```sh-session
-$ npm install -g serve-gzipped
-$ serve-gzipped COMMAND
-running command...
-$ serve-gzipped (-v|--version|version)
-serve-gzipped/2.0.0 darwin-x64 node-v12.18.3
-$ serve-gzipped --help [COMMAND]
-USAGE
-  $ serve-gzipped COMMAND
-...
-```
-<!-- usagestop -->
-# Commands
-<!-- commands -->
 
-<!-- commandsstop -->
+### Install :construction_worker:
+
+```npm install -g serve-gzipped```
+
+or run from cloud:
+```npx serve-gzipped```
+
+### Usage :hammer:
+
+```sh-session
+$ serve-gzipped [PATH]
+```
+
+##### OPTIONS
+```
+-h, --help       show CLI help
+-p, --port=port  port to run. Defaults to 7890
+-v, --version    show CLI version
+```

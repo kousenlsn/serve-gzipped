@@ -1,12 +1,11 @@
 {
   "name": "serve-gzipped",
   "description": "Quick express server with compression for testing purposes",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "author": "kousenlsn",
   "bin": {
     "serve-gzipped": "./bin/run"
   },
-  "bugs": "https://github.com/kousenlsn/serve-gzipped/issues",
   "dependencies": {
     "@oclif/command": "^1.8.0",
     "@oclif/config": "^1.17.0",
